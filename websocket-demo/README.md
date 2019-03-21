@@ -5,7 +5,15 @@
 > 使用webSocket实现了聊天功能
 > 使用socket.io改造原有代码实现聊天功能
 
+### 快速开始
+```
+node wbServer.js
+
+打开index.html
+```
+
 > 效果图
+
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1g1ankis1ohj30qg0hqt8v.jpg)
 
 ![](https://ws3.sinaimg.cn/large/006tKfTcly1g1anl7dbtwj30f508sgll.jpg)
