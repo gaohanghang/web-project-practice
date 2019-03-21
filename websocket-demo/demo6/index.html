@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Websocket</title>
+    <script type="application/javascript" src="socket.io-2.0.3.js"></script>
+</head>
+<body>
+<h1>Chat Room</h1>
+<input id="sendTxt" type="text">
+<button id="sendBtn">发送</button>
+<div id="recv"></div>
+<script type="text/javascript">
+
+    // 连接服务器
+    var socket = io("ws://localhost:3000/");
+
+    // 展示消息
+    function showMessage(str, type) {
+        var div = document.createElement('div');
+        div.innerHTML = str;
+        if (type == "enter") {
+            div.style.color = "blue"; //进入聊天室显示蓝色
+        } else if (type == "leave") {
+            div.style.color = "red"; //离开聊天室显示红色
+        }
+        document.body.appendChild(div);
+    }
+
+    // 发送消息
+    document.getElementById("sendBtn").onclick = function () {
+        var txt = document.getElementById("sendTxt").value;
+        if (txt) {
+            socket.emit('message', txt);
+        }
+    };
+
+    // 进入聊天室
+    socket.on('enter', function (data) {
+        showMessage(data, 'enter');
+    });
+
+    // 发送消息
+    socket.on('message', function (data) {
+        showMessage(data, 'message')
+    });
+
+    // 离开聊天室
+    socket.on('leave', function (data) {
+        showMessage(data, 'leave');
+    })
+</script>
+</body>
+</html>
