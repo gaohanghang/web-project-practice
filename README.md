@@ -17,7 +17,7 @@
 
 > [youtube地址](https://www.youtube.com/watch?v=QLiZ5VrhA98)
 > [博客地址](https://darkcode1.blogspot.com/2019/05/amazing-loading-animation-using-only.html)
-> 代码地址: https://github.com/gaohanghang/web-project-practice/tree/master/dark-code/gallery-section
+> 代码地址: https://github.com/gaohanghang/web-project-practice/tree/master/bilibili-html-demo/loading%20animation
 
 > 效果
 
