@@ -1,6 +1,6 @@
 # 前端项目实践
 
-## [HTML+CSS+JS]十分钟写出漂亮的自适应相册页
+## 1. [HTML+CSS+JS]十分钟写出漂亮的自适应相册页
 
 > [b站地址](https://www.bilibili.com/video/av47766149)
 >
@@ -16,7 +16,7 @@
 
 ![](https://ws4.sinaimg.cn/large/006tKfTcly1g1nhs94uv6j312b0hijsx.jpg)
 
-## 仅使用HTML和CSS的惊人加载动画
+## 2. 仅使用HTML和CSS的惊人加载动画
 
 > [youtube地址](https://www.youtube.com/watch?v=QLiZ5VrhA98)
 >
