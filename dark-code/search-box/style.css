@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #e84118;
+}
+
+.search-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /*当使用：top: 50%;left: 50%;， 是以左上角为原点，故不处于中心位置
+  translate(-50%,-50%) 作用是，往上（x轴）,左（y轴）移动自身长宽的 50%，以使其居于中心位置
+  */
+  transform: translate(-50%,-50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
