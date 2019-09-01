@@ -19,4 +19,8 @@
 > [博客地址](https://darkcode1.blogspot.com/2019/05/amazing-loading-animation-using-only.html)
 > 代码地址: https://github.com/gaohanghang/web-project-practice/tree/master/dark-code/gallery-section
 
+> 效果
+
+![](https://raw.githubusercontent.com/gaohanghang/images/master/img20190901151013.png)
+
 
