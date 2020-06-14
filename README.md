@@ -12,9 +12,9 @@
 
 > 效果
 
-![](https://ws2.sinaimg.cn/large/006tKfTcly1g1nhuktcwrj312e0hldje.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfs1goutzgj31mw0u0x6q.jpg)
 
-![](https://ws4.sinaimg.cn/large/006tKfTcly1g1nhs94uv6j312b0hijsx.jpg)
+![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfs1hc83p4j31ol0u0u0x.jpg)
 
 ## 2. 仅使用HTML和CSS的惊人加载动画
 
