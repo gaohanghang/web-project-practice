@@ -10,6 +10,8 @@
 >
 > 代码地址: https://github.com/gaohanghang/web-project-practice/tree/master/dark-code/gallery-section
 
+访问地址：http://152.136.101.97/gallery/
+
 > 效果
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlly1gfs1goutzgj31mw0u0x6q.jpg)
